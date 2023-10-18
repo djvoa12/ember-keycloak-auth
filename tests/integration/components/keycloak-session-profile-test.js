@@ -3,7 +3,7 @@ import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
 import { hbs } from 'ember-cli-htmlbars';
 
-import {setupKeycloakSession} from '@jftechnology/ember-keycloak-auth/test-support';
+import {setupKeycloakSession} from '@djvoa12/ember-keycloak-auth/test-support';
 
 module('Integration | Component | keycloak session profile', function(hooks) {
 

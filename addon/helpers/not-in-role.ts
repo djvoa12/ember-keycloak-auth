@@ -1,7 +1,7 @@
 import Helper from '@ember/component/helper';
 
 import {inject as service} from '@ember/service';
-import {KeycloakAdapterService} from "@jftechnology/ember-keycloak-auth";
+import {KeycloakAdapterService} from "@djvoa12/ember-keycloak-auth";
 
 /**
  * Helper that checks a keycloak session for realm or resource roles.

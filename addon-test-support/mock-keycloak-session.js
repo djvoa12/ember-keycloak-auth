@@ -1,4 +1,4 @@
-import KeycloakSessionService from '@jftechnology/ember-keycloak-auth/services/keycloak-session';
+import KeycloakSessionService from '@djvoa12/ember-keycloak-auth/services/keycloak-session';
 import MockKeycloakInstance from './mock-keycloak-instance';
 
 export default class MockKeycloakSessionService extends KeycloakSessionService {

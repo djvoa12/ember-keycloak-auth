@@ -1,6 +1,6 @@
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
-import { setupKeycloakSession } from '@jftechnology/ember-keycloak-auth/test-support';
+import { setupKeycloakSession } from '@djvoa12/ember-keycloak-auth/test-support';
 
 module('Unit | Services | keycloak session', function(hooks) {
 

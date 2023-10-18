@@ -1,5 +1,5 @@
 {
-  "name": "@jftechnology/ember-keycloak-auth",
+  "name": "@djvoa12/ember-keycloak-auth",
   "version": "1.1.0-beta.4",
   "description": "Keycloak JS Adapter as an Ember service and utilities",
   "keywords": [
@@ -14,10 +14,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/JFTechnology/ember-keycloak-auth"
+    "url": "https://github.com/djvoa12/ember-keycloak-auth"
   },
   "license": "MIT",
-  "author": "stephen.flynn@jftechnology.com",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -32,8 +31,6 @@
     "prepublishOnly": "ember ts:precompile",
     "postpublish": "ember ts:clean"
   },
-  "url": "https://github.com/JFTechnology/ember-keycloak-auth/issues",
-  "email": "support@jftechnology.com",
   "dependencies": {
     "ember-auto-import": "^1.10.1",
     "ember-cli-babel": "^7.23.1",
@@ -70,7 +67,6 @@
     "ember-cli-sri": "^2.1.1",
     "ember-cli-uglify": "^3.0.0",
     "ember-cookies": "^0.5.2",
-    "ember-data": "~3.24.1",
     "ember-decorators": "~6.1.1",
     "ember-export-application-global": "^2.0.1",
     "ember-fetch": "^8.0.2",
@@ -91,13 +87,12 @@
     "typescript": "3.9.2"
   },
   "engines": {
-    "node": "12.* || 14.*"
+    "node": "16.*"
   },
   "ember": {
     "edition": "octane"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  },
-  "homepage": "https://JFTechnology.github.io/ember-keycloak-auth"
+  }
 }

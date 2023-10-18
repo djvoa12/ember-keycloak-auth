@@ -3,7 +3,7 @@ import Component from '@glimmer/component';
 import {action, computed} from '@ember/object';
 import {alias} from '@ember/object/computed';
 import {inject as service} from '@ember/service';
-import {KeycloakAdapterService} from "@jftechnology/ember-keycloak-auth";
+import {KeycloakAdapterService} from "@djvoa12/ember-keycloak-auth";
 
 import {KeycloakTokenParsed} from 'keycloak-js';
 

@@ -1,7 +1,7 @@
 import Component from '@glimmer/component';
 
 import {inject as service} from '@ember/service';
-import {KeycloakAdapterService} from "@jftechnology/ember-keycloak-auth";
+import {KeycloakAdapterService} from "@djvoa12/ember-keycloak-auth";
 
 /**
  * @class KeycloakSessionConfig

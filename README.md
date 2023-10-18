@@ -1,18 +1,18 @@
-[![Build Status](https://travis-ci.org/JFTechnology/ember-keycloak-auth.svg)](https://travis-ci.org/JFTechnology/ember-keycloak-auth)
-[![Ember Observer Score](https://emberobserver.com/badges/-jftechnology-ember-keycloak-auth.svg)](https://emberobserver.com/addons/@jftechnology/ember-keycloak-auth)
-[![npm version](https://badge.fury.io/js/%40jftechnology%2Fember-keycloak-auth.svg)](https://badge.fury.io/js/%40jftechnology%2Fember-keycloak-auth)
-[![Dependency Status](https://david-dm.org/JFTechnology/ember-keycloak-auth.svg)](https://david-dm.org/JFTechnology/ember-keycloak-auth)
-[![devDependency Status](https://david-dm.org/JFTechnology/ember-keycloak-auth/dev-status.svg)](https://david-dm.org/JFTechnology/ember-keycloak-auth#info=devDependencies)
+[![Build Status](https://travis-ci.org/djvoa12/ember-keycloak-auth.svg)](https://travis-ci.org/djvoa12/ember-keycloak-auth)
+[![Ember Observer Score](https://emberobserver.com/badges/-djvoa12-ember-keycloak-auth.svg)](https://emberobserver.com/addons/@djvoa12/ember-keycloak-auth)
+[![npm version](https://badge.fury.io/js/%40djvoa12%2Fember-keycloak-auth.svg)](https://badge.fury.io/js/%40djvoa12%2Fember-keycloak-auth)
+[![Dependency Status](https://david-dm.org/djvoa12/ember-keycloak-auth.svg)](https://david-dm.org/djvoa12/ember-keycloak-auth)
+[![devDependency Status](https://david-dm.org/djvoa12/ember-keycloak-auth/dev-status.svg)](https://david-dm.org/djvoa12/ember-keycloak-auth#info=devDependencies)
 
-@jftechnology/ember-keycloak-auth
+@djvoa12/ember-keycloak-auth
 ==============================================================================
 
 This README outlines the details of collaborating on this Ember addon.
 
-@jftechnology/ember-keycloak-auth is an addon that can be installed with Ember CLI. It is intended for EmberJS applications accessing 
+@djvoa12/ember-keycloak-auth is an addon that can be installed with Ember CLI. It is intended for EmberJS applications accessing 
 REST services secured by the Keycloak authentication server from Redhat/JBoss (http://keycloak.jboss.org). 
 
-See [addon docs](https://jftechnology.github.io/ember-keycloak-auth) for full API details.
+See [addon docs](https://djvoa12.github.io/ember-keycloak-auth) for full API details.
 
 
 ## Features overview
@@ -27,17 +27,17 @@ See [addon docs](https://jftechnology.github.io/ember-keycloak-auth) for full AP
 Versions 0.9+ of this library require the LTS version 3.8 of Ember or greater. Versions 0.9+ uses native classes 
 and Stage 1 decorators and requires ember-decorators-polyfill for environments before Ember 3.10. 
 
-If you are using a version of Ember older than 3.8, please use ember-keycloak-auth version 0.3.0 (note - no @jftechnology scope).
+If you are using a version of Ember older than 3.8, please use ember-keycloak-auth version 0.3.0 (note - no @djvoa12 scope).
 
 Compatibility
 ------------------------------------------------------------------------------
 
-## @jftechnology/ember-keycloak-auth v0.9+
+## @djvoa12/ember-keycloak-auth v0.9+
 * Ember.js (LTS) v3.8 or above (requires ember-decorators-polyfill for Ember versions < 3.10)
 * Ember CLI (LTS) v3.8 or above
 
 ### Breaking changes v0.9+
-* Package name now scoped (ember-keycloak-auth:0.3.x -> @jftechnology/ember-keycloak-auth:0.9.x)
+* Package name now scoped (ember-keycloak-auth:0.3.x -> @djvoa12/ember-keycloak-auth:0.9.x)
 * Keycloak 'checkLoginIframe' option now defaults to false
 
 ## ember-keycloak-auth v0.3
@@ -50,7 +50,7 @@ Installation
 Run:
 
 ```
-ember install @jftechnology/ember-keycloak-auth
+ember install @djvoa12/ember-keycloak-auth
 ```
 
 For Ember 3.8 / 3.9 you need to install the decorator polyfill as well...
@@ -63,7 +63,7 @@ ember install ember-decorators-polyfill
 Usage
 ------------------------------------------------------------------------------
 
-See [addon docs](https://jftechnology.github.io/ember-keycloak-auth) for usage and API details.
+See [addon docs](https://djvoa12.github.io/ember-keycloak-auth) for usage and API details.
 
 ## Running
 

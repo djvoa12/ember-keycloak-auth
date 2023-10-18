@@ -14,10 +14,10 @@ export const OPENID_RESPONSE = {
 };
 
 export const PROFILE = {
-  "username": "stephen.flynn@jftechnology.com",
+  "username": "stephen.flynn@djvoa12.com",
   "firstName": "Stephen",
   "lastName": "Flynn",
-  "email": "stephen.flynn@jftechnology.com",
+  "email": "stephen.flynn@djvoa12.com",
   "emailVerified": true,
   "attributes": {}
 };
@@ -46,10 +46,10 @@ export const PARSED_TOKEN = {
   },
   "scope": "openid",
   "name": "Stephen Flynn",
-  "preferred_username": "stephen.flynn@jftechnology.com",
+  "preferred_username": "stephen.flynn@djvoa12.com",
   "given_name": "Stephen",
   "family_name": "Flynn",
-  "email": "stephen.flynn@jftechnology.com"
+  "email": "stephen.flynn@djvoa12.com"
 };
 
 class AuthStore {

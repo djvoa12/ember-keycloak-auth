@@ -1,4 +1,4 @@
-import {AUTH_STORE} from '@jftechnology/ember-keycloak-auth/test-support';
+import {AUTH_STORE} from '@djvoa12/ember-keycloak-auth/test-support';
 
 /**
  * Mock of the Keycloak Adapter instance - installed by the Keycloak Session mock instead of a live KeycloakInstance.

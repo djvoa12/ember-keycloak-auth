@@ -1,6 +1,6 @@
 /*eslint no-undef: "error"*/
 import Service, {inject as service} from '@ember/service';
-import {KeycloakAdapterService} from '@jftechnology/ember-keycloak-auth';
+import {KeycloakAdapterService} from '@djvoa12/ember-keycloak-auth';
 
 import Keycloak, {
   KeycloakConfig,

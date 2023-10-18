@@ -4,7 +4,7 @@ const chalk = require('chalk');
 
 module.exports = {
 
-  description: '@jftechnology/ember-keycloak-auth',
+  description: '@djvoa12/ember-keycloak-auth',
 
   normalizeEntityName() {
     // this prevents an error when the entityName is

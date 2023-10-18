@@ -1,11 +1,11 @@
 // Types for compiled templates
-declare module '@jftechnology/ember-keycloak-auth/templates/*' {
+declare module '@djvoa12/ember-keycloak-auth/templates/*' {
   import {TemplateFactory} from 'htmlbars-inline-precompile';
   const tmpl: TemplateFactory;
   export default tmpl;
 }
 
-declare module '@jftechnology/ember-keycloak-auth' {
+declare module '@djvoa12/ember-keycloak-auth' {
   import {KeycloakTokenParsed} from "keycloak-js";
   import RSVP from "rsvp";
 

@@ -31,16 +31,16 @@
         "tests/dummy/app/*",
         "app/*"
       ],
-      "@jftechnology/ember-keycloak-auth": [
+      "@djvoa12/ember-keycloak-auth": [
         "addon"
       ],
-      "@jftechnology/ember-keycloak-auth/*": [
+      "@djvoa12/ember-keycloak-auth/*": [
         "addon/*"
       ],
-      "@jftechnology/ember-keycloak-auth/test-support": [
+      "@djvoa12/ember-keycloak-auth/test-support": [
         "addon-test-support"
       ],
-      "@jftechnology/ember-keycloak-auth/test-support/*": [
+      "@djvoa12/ember-keycloak-auth/test-support/*": [
         "addon-test-support/*"
       ],
       "*": [
