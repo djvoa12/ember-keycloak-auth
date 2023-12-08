@@ -431,27 +431,15 @@ export default class KeycloakSessionService extends Service implements KeycloakA
    *
    * @method logout
    * @param {String} redirectUri Optional redirect url
-   * @return {RSVP.Promise} Resolves on server response.
    */
-  logout(redirectUri: string): RSVP.Promise<any> {
+  async logout(redirectUri: string): RSVP.Promise<any> {
+    const options = { redirectUri };
 
-    let options = {redirectUri};
-
-    return new RSVP.Promise((resolve, reject) => {
-
-      if (this.keycloak) {
-        let keycloak = this.keycloak;
-        keycloak.logout(options)
-          .then(
-            () => {
-              console.debug('KeycloakSessionService :: logout :: success');
-              keycloak.clearToken();
-              resolve('logout OK');
-            });
-      } else {
-        reject(new Error("KeycloakSessionService :: no installed keycloak instance"));
-      }
-    });
+    if (this.keycloak) {
+      await this.keycloak.logout(options);
+      console.debug('KeycloakSessionService :: logout :: success');
+      keycloak.clearToken();
+    }
   }
 
   wrappedCall(call: () => {}): RSVP.Promise<any> {
@@ -566,4 +554,3 @@ export default class KeycloakSessionService extends Service implements KeycloakA
     console.info('KeycloakSessionService :: onAuthLogout');
   };
 }
-
