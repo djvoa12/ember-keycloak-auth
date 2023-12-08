@@ -143,7 +143,7 @@ export default class KeycloakSessionService extends Service implements KeycloakA
       console.debug('KeycloakSessionService :: install');
     }
 
-    let keycloak: KeycloakInstance = Keycloak(parameters);
+    let keycloak: KeycloakInstance = new Keycloak(parameters);
 
     this._installKeycloak(keycloak);
   }
